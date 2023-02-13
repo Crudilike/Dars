@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery.min.js"></script>
+    <style>
+       /* .box
+        {
+            border: burlywood solid 3px;
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            border-radius: 30px 0;
+            color: burlywood;
+        }*/
+    </style>
+</head>
+<body>
+    <b id="demo">Salom</b>
+    <b id="beta">Xayr</b>
+   <!----  <h1 id="demo"></h1>
+    <h1 id="ls"></h1>
+    <h1 class="demo1">Html</h1>
+    <h1 class="demo2">JavaScript</h1>
+    <h1 class="demo3">JQuery</h1>
+   <h1 id="demo1" class="demo">Html</h1>
+    <h1 id="demo1" class="demo">Css</h1>    
+    <h1 id="demo1" class="demo">Javascript</h1>
+    <h1 id="demo4" class="demo">JQuery</h1>
+    <div id="beta"></div>
+    <button></button>-->
+    <script>
+        //var d = $("#demo4").html();
+        //$(".demo").html(d);
+        // $(".demo1").hide();
+        // $(".demo2").show();
+        //$(".demo3").css({color:"blue", fontSize:"100px"})
+        //$("#beta").html("<h1>JavaScript</h1><h1>Html</h1>");
+        //$("button").addClass("box");
+        // $("button").html("Click")
+       // html kutishi uchun $(document).ready(function(){
+      //  });
+
+      //$(document).ready(function(){
+      //  $("#ls").hide();
+       // $("#demo").mouseleave(function(){
+        //    $("#ls").show();
+        //})
+      //});
+      $("#beta").css({fontSize:"40px"});
+      $("#demo").css({fontSize:"40px"});
+
+
+                $(document).ready(function(){
+                    $("#beta").show();
+                        $("#demo").mouseenter(function(){
+                            $("#beta").hide();
+                                $("#demo").mouseleave(function(){
+                                    $("#beta").show();
+
+                                
+                    })
+                })
+            });
+    </script>
+</body>
+</html>
