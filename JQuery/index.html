@@ -7,7 +7,7 @@
     <title>Document</title>
     <script src="./jquery.min.js"></script>
     <style>
-       /* .box
+        .box
         {
             border: burlywood solid 3px;
             background-color: black;
@@ -15,13 +15,55 @@
             height: 100px;
             border-radius: 30px 0;
             color: burlywood;
-        }*/
+            position: absolute;
+            top: 400px;
+            right: 900px;
+        }
+        .but{
+            text-align: center;
+            color: bisque;
+            background-color: black;
+            margin-top: 0;
+            margin-bottom: 0;
+            border: 1px solid beige;
+        }
+        .but2{
+            text-align: center;
+            color: bisque;
+            background-color: black;
+            padding: 100px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .green{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            display: none;
+        }
+        .blue{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            display: none;
+        }
+        .red{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+        button{
+            position: absolute;
+            top: 400px;
+            left: 700px;
+        }
     </style>
 </head>
 <body>
-    <b id="demo">Salom</b>
+   <!---- <b id="demo">Salom</b>
     <b id="beta">Xayr</b>
-   <!----  <h1 id="demo"></h1>
+     <h1 id="demo"></h1>
     <h1 id="ls"></h1>
     <h1 class="demo1">Html</h1>
     <h1 class="demo2">JavaScript</h1>
@@ -31,7 +73,19 @@
     <h1 id="demo1" class="demo">Javascript</h1>
     <h1 id="demo4" class="demo">JQuery</h1>
     <div id="beta"></div>
-    <button></button>-->
+    <button></button>
+    <h1>JQuery</h1>
+    <button id="b1">Hide</button>
+    <button id="b2">Show</button>-->
+    <!-----<h1>Hello World</h1>
+    <h1>Hello World</h1>
+    <h1>Hello World</h1
+        <h1 id="h1" class="but">Jquery</h1>
+        <h1 id="h2" class="but2">Barkamol Avlod</h1>-->
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="green"></div>
+        <button id="but">Jquery</button>
     <script>
         //var d = $("#demo4").html();
         //$(".demo").html(d);
@@ -39,7 +93,7 @@
         // $(".demo2").show();
         //$(".demo3").css({color:"blue", fontSize:"100px"})
         //$("#beta").html("<h1>JavaScript</h1><h1>Html</h1>");
-        //$("button").addClass("box");
+       //$("button").addClass("box");
         // $("button").html("Click")
        // html kutishi uchun $(document).ready(function(){
       //  });
@@ -50,21 +104,68 @@
         //    $("#ls").show();
         //})
       //});
-      $("#beta").css({fontSize:"40px"});
-      $("#demo").css({fontSize:"40px"});
+     // $("#beta").css({fontSize:"40px"});
+     // $("#demo").css({fontSize:"40px"});
+//
+//
+       //         $(document).ready(function(){
+       //             $("#beta").show();
+        //                $("#demo").mouseenter(function(){
+        //                    $("#beta").hide();
+         //                       $("#demo").mouseleave(function(){
+         //                           $("#beta").show();
 
+//$("button").dblclick(function(){
+            //$("h1").hide();
+        // }
+        // )
+//
 
-                $(document).ready(function(){
-                    $("#beta").show();
-                        $("#demo").mouseenter(function(){
-                            $("#beta").hide();
-                                $("#demo").mouseleave(function(){
-                                    $("#beta").show();
+//$("button").mouseenter(function(){
+          //  alert("Hello Jquery");
+         //   $("button").css({backgroundColor:"green"})
+       //  }),
+       //  $("button").dblclick(function(){
+          //  alert("doble click Jquery");
+         //   $("button").css({backgroundColor:"grey"})
+        // }),
+         //$("button").mouseleave(function(){
+         //   alert("Bye Jquery");
+         //   $("button").css({backgroundColor:"grey"})
+         //})
 
-                                
-                    })
-                })
-            });
+        // $("h1").addClass("but")
+//
+        // $("#b1").click(function(){
+        //    $("h1").hide(1000);
+        // }),
+        // $("#b2").click(function(){
+        //    $("h1").show(1000);
+        // })
+        //$("#h2").css({display:"none"})
+        //$("#h1").click(function(){
+          //  $("#h2").toggle();
+        //})
+         //$("#but").click(function(){
+          //  $(".red").fadeTo("50", "0.1");
+           // $(".red").css({display:"none"})
+          //  $(".blue").fadeTo("50", "0.15");
+           // $(".blue").css({display:"none"})
+           // $(".green").fadeTo("50", "0.30");
+            //$(".green").css({display:"none"})
+        // })
+        $("#but").click(function(){
+            $(".red").slideToggle("100");
+            $(".red").css({display:"block"})
+            $(".blue").slideToggle("150");
+            $(".blue").css({display:"block"})
+            $(".green").slideToggle("200");
+            $(".green").css({display:"block"})
+        })
+          //                      
+          //          })
+          //      })
+          //  });
     </script>
 </body>
 </html>
