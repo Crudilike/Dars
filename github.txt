@@ -1,1 +1,1 @@
-Git hub uchun 1add 2 commit 3 push
+Git hub uchun 1add all 2 commit -m "" 3 push

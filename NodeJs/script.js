@@ -1,2 +1,31 @@
-var info = require(".//index");
-console.log(info.hello + " mening ismim " + info.Myname + " "  + "mening yoshim " + info.age + " da");
+// var info = require(".//index");
+// console.log(info.hello + " mening ismim " + info.Myname + " "  + "mening yoshim " + info.age + " da");
+
+//var dom = require("fs");
+//console.log(dom.readFileSync("dars.html","utf8"));
+    //var s = require("fs");
+    //s.writeFile("dom.txt","Hi!",function(){});
+    //so.mkdir("dars", function(){});
+    //so.rmdir("dars", function(){});
+    //so.unlink("dars.html", function(){});
+    //so.writeFileSync("./Papka/index.html","<h1>Salom</h1>");
+    //var so = require("fs");
+    //so.writeFileSync("big.html","Hi!");
+    //so.rmdir("Papka", function(){});
+    //so.unlinkSync("big.html");
+    //so.mkdir("Papka",function(){});
+    //so.writeFileSync("./Papka/fayl.txt","Salom");
+    //so.mkdirSync("Fayl",function(){});
+    //so.writeFileSync("./Fayl/papka.txt","Hi!");
+    //so.mkdirSync("HTML");
+    //so.writeFileSync("./html/h1.html","<h1>H1</h1>");
+    //so.writeFileSync("./html/h2.html","<h2>H2</h2>");
+    //so.writeFileSync("./html/h3.html","<h3>H3</h3>");
+    //so.writeFileSync("./html/h4.html","<h4>H4</h4>");
+    //so.writeFileSync("./html/h5.html","<h5>H5</h5>");
+    //server uchun//var ss = require("http");
+    //server uchun//var fs = require("fs");
+    //server sozdat qilish //ss.createServer(function(req,res){ 
+      //server sozdat qilish uchun// res.writeHead(200,{"Content-type":"text/html"});
+      //server sozdat qilish uchun // res.end(fs.readFileSync("index.html","utf8"));
+    //server sozdat qilish uchun//}).listen(3003);
