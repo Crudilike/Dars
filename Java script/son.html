@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            border: blue 2px solid;
+            width: 100px;
+            left: 850px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">1</h1>
+    <script>
+        setInterval(function(){
+            function two(){
+            var f = document.getElementById("h1").innerHTML = "2";
+        }
+       setTimeout(two,1500)
+       function three(){
+            var d = document.getElementById("h1").innerHTML = "3";
+        }
+        setTimeout(three,2500)
+        function one(){
+            var e = document.getElementById("h1").innerHTML = "1";
+        }
+        setTimeout(one,3500)
+        function two(){
+            var f = document.getElementById("h1").innerHTML = "2";
+        }
+       setTimeout(two,4500)
+       function three(){
+            var d = document.getElementById("h1").innerHTML = "3";
+        }
+        setTimeout(three,5500)
+        },4000)
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*h1{
+            text-align: center;
+            border: blue 2px solid;
+            width: 100px;
+            position: absolute;
+            animation: anim 4s infinite;
+        }
+       /* @keyframes anim{
+            0%{left: 1700px;}
+            50%{left: 900px;}
+            100%{left:0px}
+        }/*/
+        .col{
+            width: 30%;
+            margin: auto;
+            border: 2px solid blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="col"><h1>1</h1></div>
+    <div class="col"><h1>2</h1></div>
+    <div class="col"><h1>3</h1></div>
+    <script>
+       // setInterval(function(){
+          //  function one(){
+           //     var y =document.getElementById("h1").innerHTML = "1";
+           // }
+           // setTimeout(one,none)
+        //function two(){
+         //   var f = document.getElementById("h1").innerHTML = "2";
+       // }
+       //setTimeout(two,1000)
+       //function three(){
+       //     var d = document.getElementById("h1").innerHTML = "3";
+       // }
+       // setTimeout(three,2000)
+        //function one(){
+           // var e = document.getElementById("h1").innerHTML = "1";
+//}
+      // setTimeout(one,3000)
+       // function two(){
+        //    var f = document.getElementById("h1").innerHTML = "2";
+        //}
+       //setTimeout(two,4000)
+       //function three(){
+        //    var d = document.getElementById("h1").innerHTML = "3";
+       //}
+       // setTimeout(three,5000)
+       // },7000)
+
+       var index = 0;
+       fan()
+       function fan(){
+        var col = document.getElementsByClassName("col");
+        for(let i = 0; i < col.length; i++){
+            col[i].style.display = "none";
+        }
+        index++;
+        if(index > col.length){
+            index = 1;
+        }
+        col[index - 1].style.display = "block";
+        setTimeout(fan,1000);
+       }
+    </script>
+</body>
+</html>
